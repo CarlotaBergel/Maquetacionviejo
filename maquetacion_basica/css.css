@@ -1,0 +1,56 @@
+main{
+    width: 100%;
+    border: 4px gray solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1%;
+}
+#page_header{
+    border: 2px green solid;
+    height:  40px;
+    margin: 4px;
+    border-radius: 1%;
+}
+nav{
+    border: 2px red solid;
+    margin: 4px;
+    border-radius: 1%;
+}
+#information{
+    display: flex;
+}
+article{
+    border: 2px blue solid;
+    margin: 4px;
+    width: 50%;
+    border-radius: 1%;
+}
+#article_header{
+    border: 2px green solid;
+    margin-bottom: 80px;
+    border-radius: 1%;
+}
+section{
+    border: 2px purple solid;
+    margin: 4px;
+    border-radius: 1%;
+}
+footer{
+    border: 2px yellow solid;
+    border-radius: 1%;
+}
+#barra_lateral{
+   width: 50%;
+   border: 2px orange solid;
+   border-radius: 1%;
+}
+
+#page_footer{
+    border: 2px yellow solid;
+    border-radius: 1%;
+}
+aside{
+    border: 2px blue solid;
+    padding-bottom: 70px;
+    border-radius: 1%;
+}
