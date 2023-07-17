@@ -1,5 +1,5 @@
 main{
-    width: 100%;
+    width: 30%;
     border: 4px gray solid;
     display: flex;
     flex-direction: column;
