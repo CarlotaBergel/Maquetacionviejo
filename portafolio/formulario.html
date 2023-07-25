@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario de contacto</title>
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="paginaPrincipal.html"> <b> Inicio </b> </a></li>
+                <li><a href="proyectos.html"> <b>Proyectos </b> </a></li>
+                <li><a href="tecnologias.html"> <b>Tecnologías</b></a></li>
+                <li><a href="formulario.html"> <b>Contacto </b> </a></li>
+            </ul>
+        </nav>
+
+    </header>
+   
+    <main id="mainContacto">
+        <div class="formulario">			
+            <h1 id="h1Formulario">Formulario de contacto </h1>
+            <h3 id="h3Formulario">Escríbeme y estaré encantada de contestarte</h3>
+
+            <form action="submeter-formulario.php" method="post">				
+
+                <p class="pFormulario">
+                <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                    
+                <p class="pFormulario">
+                <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                
+                <p class="pFormulario">
+                <label for="telefone" class="colocar_telefono">Teléfono
+                </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>	
+                        
+                <p class="pFormulario">
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>		
+            
+                <p class="pFormulario">
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>                     
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p>	  								
+            
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>					  
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <h3 id="nombreFooter">Carlota Bergel Pozo</h3>
+        <div id="divFooter">
+            <p>Teléfono: 675077546</p>
+            <p>Email: carlotabergel7@hotmail.com</p>
+            <p>Linkedin: Carlota Bergel</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+}
+/* Header */
+nav{
+    background-color: black;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    height: 60px;
+}
+li{
+    display:block;
+    width: 33.33%;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Main Principal */
+#mainPrincipal{
+    width: 100%;
+    height:100vh;
+}
+#h1Principal, #h2Principal{
+    text-align: center;
+    margin-top: 5px;
+}
+#sobreMi{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    text-align: justify;
+    margin-bottom: 35px;
+
+}
+#sobreMiTexto{
+    flex-direction: row; 
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 10%;
+    padding-bottom: 5px;
+}
+#aficiones{
+    padding-top: 10px;
+}
+
+/* Formulario  */
+#mainContacto{
+    width: 100%;
+    background-color: paleturquoise;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height:100vh;
+}
+.formulario{	
+	width: 460px; 
+    margin-left: 35%;
+	border-radius: 10px;  
+	padding-top: 10px;
+	padding-bottom: 20px;  
+    background-color: black; 
+    padding-left: 30px; 
+}
+input{
+	background-color: white; 
+	width: 408px;
+	height: 40px; 
+	border-radius: 5px;  
+	margin-top: 7px;  
+	padding-left: 10px;
+    margin-bottom: 10px; 
+}
+textarea{
+    background-color: white; 
+	width: 405px; 
+	height: 100px; 
+	border-radius: 5px;  
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+label{
+    display: block; 
+    float: center;
+    color: paleturquoise;	
+}
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	background-color: paleturquoise; 
+	border-radius: 10px;	
+	width: 420px;
+}
+button p{
+	color: black; 
+}
+.aviso{
+	font-size: 13px;  
+	color: white;  
+}
+#h1Formulario{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: white;
+}
+#h3Formulario{
+	font-size: 16px; 
+	padding-bottom: 20px;
+	color: white;   
+}
+.pFormulario{
+	font-size: 14px; 
+	color: white; 
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+
+}
+#nombreFooter{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+#divFooter{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
