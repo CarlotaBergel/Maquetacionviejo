@@ -3,39 +3,50 @@
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
     width: 100%;
 }
+
 /* Header */
+
 nav{
     background-color: black;
     display: flex;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
+
 ul{
     display: flex;
     width: 100%;
     list-style-type: none;
     height: 60px;
 }
+
 li{
     display:block;
     width: 33.33%;
     text-align: center;
     margin-top: 20px;
 }
+
 /* Main Principal */
+
 #mainPrincipal{
     width: 100%;
     height:100vh;
+    background-color: paleturquoise;
 }
+
 #h1Principal, #h2Principal{
     text-align: center;
-    margin-top: 5px;
+    padding-top: 15px;
 }
+
 #sobreMi{
     display: flex;
     margin-left: 5%;
@@ -44,6 +55,7 @@ li{
     margin-bottom: 35px;
 
 }
+
 #sobreMiTexto{
     flex-direction: row; 
     margin-top: 30px;
@@ -51,8 +63,109 @@ li{
     margin-right: 10%;
     padding-bottom: 5px;
 }
+
 #aficiones{
     padding-top: 10px;
+}
+
+/* Proyectos */
+
+#proyectoMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: paleturquoise;
+}
+
+#proyectoMain img{
+    border: 2px solid black;
+}
+
+#proyectoMain h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#h1Proyectos{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#parrafoProyectos{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#proyecto1, #proyecto3{
+    margin-left: 5%;
+    margin-right: 30%;
+    text-align: left;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#proyecto2{
+    margin-left: 30%;
+    margin-right: 5%;
+    text-align: right;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#textoProyecto1, #textoProyecto3, .logo1 p{
+    padding-left: 30px;
+}
+
+#textoProyecto2, .logo2 p{
+    padding-right: 30px;
+
+}
+
+/* Tecnologías */
+
+#mainTecnologias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: paleturquoise;
+}
+
+#h1Tecnologias{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo1{
+    margin-left: 100px;
+    margin-right: 40px;
+    text-align: left;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.logo1 div, .logo2 div{
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.logo1 div h2, .logo2 div h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.logo2{
+    margin-left: 40px;
+    margin-right: 100px;
+    text-align: right;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: end;
 }
 
 /* Formulario  */
@@ -147,4 +260,8 @@ footer{
     padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
+}
+
+img:hover{
+    transform:scale(1.15);
 }
