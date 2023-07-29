@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    border: 1px solid darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 30px 20px 20px;
+} 
+
+input{
+    margin: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#entrar{
+    margin: 20px;
+    background-color: blue;
+    border: none;
+    font-weight: bolder;
+    border-radius: 8px;
+    height: 35px;
+    width: 275px;
+    color: white;
+}
+
+#linea{
+    margin: 10px;
+}
+
+#Facebook{
+    display: flex;
+    border: none;
+    color: blue;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#olvidar{
+    border: none;
+    font-size:10px ;
+    margin-top: 10px;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#registro{
+    border: 1px solid darkgrey;
+    margin-top: 14px ;
+    margin-bottom: 14px;
+    padding: 20px;
+}
+
+/* Footer */
+footer{
+    margin-top:50px;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+section{
+    width: 80%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* media queries */
+
+@media screen and (max-width:875px){
+    #imagenTelefono{
+    display: none;
+    }
+}
+@media screen and (max-width:450px){
+    .pie{
+        border: none;
+    }
+    #menu{
+        border: none;
+    }  
+}
