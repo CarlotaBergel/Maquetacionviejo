@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: white;
+}
+body{
+    min-height: 640px;
+    width: 100%;
+}
+header h1{
+   width: 100%;
+   background-color: black;
+   color:white;
+   text-align: center;
+}
+main{
+    width: 100%;
+    height: 33rem;
+    display: grid;
+    grid-template-columns: [y1] 1fr [y2] 1fr [y3] 1fr [y4];
+    grid-template-rows:[x2] 1fr [x3] 1fr [x4] 1fr [x5];
+    margin: 5px;
+
+}
+#contenido{
+    display: grid;
+    grid-template-columns: [y1] 1fr [y2] 1fr [y3];
+    grid-template-rows:[x2] 1fr [x3] 1fr [x4] 1fr [x5] 1fr [x6];
+    grid-column: y1/y3;
+    grid-row: x2/x6;
+    background-color: blue;
+}
+.h1contenido{
+    grid-column: y1/y3;
+    grid-row: x2/x3;
+    border: 1px solid white;
+    background-color: blue;
+}
+.texto1{
+    grid-column: y1/y2;
+    grid-row: x3/x6;
+    padding-bottom: 200px;
+    border: 1px solid white;
+    background-color: blue;
+}
+.texto2{
+    grid-column: y2/y3;
+    grid-row: x3/x6;
+    padding-bottom: 200px;
+    border: 1px solid white;
+    background-color: blue;
+}
+
+#cajaMenu{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: [y1] 1fr [y2] 1fr [y3] 1fr [y4];
+    grid-template-rows:[x2] 1fr [x3] 1fr [x4] 1fr [x5] 1fr [x6];
+    grid-column: y3/y4;
+    grid-row: x2/x6;
+}
+
+.menu{
+    grid-column: y1/y4;
+    grid-row: x2/x3; 
+    margin: 5px;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+.menu1{
+    grid-column: y1/y4;
+    grid-row: x3/x4;
+    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.menu2{
+    grid-column: y1/y4;
+    grid-row: x4/x5;
+    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+
+}
+.menu3{
+    grid-column: y1/y4;
+    grid-row: x5/x6;
+    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    display:grid;
+    grid-template-columns: [y1] 1fr [y2] 1fr [y3];
+    grid-template-rows:[x4] 1fr [x5];
+    background-color: purple;
+}
+.footer{
+    grid-column: y1/y2;
+    grid-row: x6/x7;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+
+}
+.contacto{
+    grid-column: y2/y4;
+    grid-row: x6/x7;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
