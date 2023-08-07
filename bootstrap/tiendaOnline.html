@@ -80,10 +80,24 @@
         </div>
       </div>
 
-      <div class="container border mt-5 col-4  bg-light" id="windowCarrito" >
-        <div id="div-carrito" class="col-5"></div>
-        <p  class="text-right" id="total-carrito"><span id="total"></span></p>
-            <button id="botonVaciar" class="btn btn-danger">Vaciar</button>
+      <div class="modal" tabindex="-1" role="dialog" id="windowCarrito">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Carrito</h5>
+              <button type="button" id="cerrar" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="div-carrito">
+              <p>Productos</p>
+            </div>
+            <div class="modal-footer">
+              <p  class="text-right" id="total-carrito"><span id="total"></span></p>
+              <button id="botonVaciar" class="btn btn-danger">Vaciar</button>
+            </div>
+          </div>
+        </div>
       </div>
         
     </main>

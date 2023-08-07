@@ -93,6 +93,15 @@ $(document).ready(function(){
         actualizarCarrito();
     });
 
+    //Para cerrar el carrito 
+    $("#cerrar").click(function(){
+
+        //Antes de remostrarlo hay que repintar los productos por si ha cambiado algo
+
+        $("#windowCarrito").hide();
+    });
+
+
     function createProduct(nombre, precio, imagen){
         let producto = new ProductoCarrito(nombre, precio, imagen);
 
@@ -147,5 +156,7 @@ $(document).ready(function(){
         <span id="total">Total: ${totalPrice} &euro;</span>`;
 
         $("#total-carrito").append(cardHtmlTotalPrice);
+
+        
     }
 });
